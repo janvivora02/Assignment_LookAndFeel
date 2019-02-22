@@ -1,33 +1,49 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>Indian Recipes</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="./css/mystyle.css">
+    <title>Indian Recipes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/mystyle.css">
 </head>
 
 <body>
 
-  <div class="background">
-     <img src="./img/Spices1.jpg" alt="Spices"> 
-  </div>
+    <div class="topnav">
+        <a href="#">About</a>
+        <a href="#">Drinks</a>
+        <a href="#">Sweets</a>
+        <a href="#">Main Dishes</a>
+        <a href="./breads/breads.html">Breads</a>
+        <a href="#">Home</a>
+    </div>
 
-  <div class="topnav">
-    <a href="#">About</a>
-    <a href="#">Drinks</a>
-    <a href="#">Sweets</a>
-    <a href="#">Main Dishes</a>
-    <a href="./breads/breads.html">Breads</a>
-    <a href="#">Home</a>
-  </div>
+    <video autoplay muted loop id="myVideo">
+        <source src="./img/Slow mo.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
 
-  <div class="content">
-    <h2>Indian Recipes</h2>
-    <p>Explore the best of Indian cooking with these top-rated recipes for curries, tandoori chicken, chutneys, and
-      more flavorful faves.</p>
-  </div>
+    <div class="content">
+        <h1>Indian Recipes</h1>
+        <p>Explore the best of Indian cooking with these top-rated recipes for curries, tandoori chicken, chutneys, and more flavorful flavours</p>
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+    </script>
 
 </body>
 

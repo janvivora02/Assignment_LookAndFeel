@@ -20,6 +20,10 @@
     font-family: cursive;
     color: black;
   }
+
+  .content {
+    top: 0px;
+  }
   
   /* Container for flexboxes */
   .row {

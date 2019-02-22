@@ -1,0 +1,23 @@
+table, th, td {
+    border-collapse: collapse;
+    color: black;
+    }
+    th, td {
+    padding: 5px;
+    text-align: left; 
+    }
+    img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    }
+    tr td:first-child {
+    width: 40%;
+    text-align: center;
+    }
+    tr td:last-child {
+    width: 60%;
+    }
+    

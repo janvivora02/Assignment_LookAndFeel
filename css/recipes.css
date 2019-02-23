@@ -55,3 +55,8 @@ body {
   .developers tr td img{
     height: 300px;
   }
+  
+  .about-content {
+    margin-left: 25px;
+    margin-right: 25px;
+  }

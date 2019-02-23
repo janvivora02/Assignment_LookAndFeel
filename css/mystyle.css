@@ -19,6 +19,9 @@ html {
     .black-font {
     color: black;
     }
+    .white-font {
+        color: white;
+    }
     .background {
     width: 100%;
     height: 100%;

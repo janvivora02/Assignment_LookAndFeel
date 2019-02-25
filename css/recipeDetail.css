@@ -46,4 +46,6 @@
       .item4 {
         grid-column-start: 1;
         grid-column-end: 4;
+        padding-left: 120px;
+        padding-top: 20px;
       }
